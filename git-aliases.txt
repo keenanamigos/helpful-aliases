@@ -1,0 +1,17 @@
+## Git ##
+st = status # git st
+co = checkout # git co
+cob = checkout -b # git cob
+dw = diff -w # git dw
+dws = diff -w --staged # git dws
+ri = rebase -i # git ri
+br = branch # git br
+brd = branch -D # git brd
+a = add # git a
+aA = add -A # git aA
+ca = commit -a # git ca
+cm = commit -m # git cm
+rh = reset HEAD # git rh
+rod = rebase origin/develop # git rod
+rud = rebase upstream/develop # git rud
+
