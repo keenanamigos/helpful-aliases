@@ -14,4 +14,3 @@ cm = commit -m # git cm
 rh = reset HEAD # git rh
 rod = rebase origin/develop # git rod
 rud = rebase upstream/develop # git rud
-

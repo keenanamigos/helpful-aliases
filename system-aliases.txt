@@ -1,0 +1,6 @@
+## Bash/ZSH ##
+cpwd="pwd | tr -d '\n' | pbcopy"
+c="clear"
+ck="clear && printf '\e[3J'"
+usebash="chsh -s /bin/bash"
+usezsh="chsh -s /bin/zsh"
