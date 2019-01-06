@@ -12,5 +12,6 @@ aA = add -A # git aA
 ca = commit -a # git ca
 cm = commit -m # git cm
 rh = reset HEAD # git rh
+rom = rebase origin/master # git rom
 rod = rebase origin/develop # git rod
 rud = rebase upstream/develop # git rud
