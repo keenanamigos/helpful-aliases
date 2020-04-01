@@ -1,6 +1,22 @@
 ## Bash/ZSH ##
+// Copy present working directory to the clipboard
 cpwd="pwd | tr -d '\n' | pbcopy"
+
+// 'Clear' current terminal but allow the user to see previous output by scrolling
 c="clear"
+
+// Clear current terminal and remove ability to see previous output
 ck="clear && printf '\e[3J'"
+
+// Use the Bash shell
 usebash="chsh -s /bin/bash"
+
+// Use the ZSH shell
 usezsh="chsh -s /bin/zsh"
+
+// Output items in a directory from oldest to newest
+sortON="ls -lrt"
+
+// Output items in a directory from newest to oldest
+sortNO="ls -lt"
+
